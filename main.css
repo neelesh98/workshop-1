@@ -1,9 +1,33 @@
 .body{
     padding: 0;
     margin:  0;
-    width: 100%;
 }
 
+.green_head{
+    font-size: 14px;
+    background: #E4FAF4;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0 100px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.green_head_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+.navigation_m{
+    display: none;
+}
 .navigation{
     background: rgb(255, 255, 255);
     height: 102px;   
@@ -28,31 +52,35 @@
 }
 
 .search{
+    
+        align-items: center;
         background-color: #F5F5F5;
         border-radius: 6px;
-        width: 240px;
-        height: 42px;
         display: flex;
-        justify-content: flex-start ;   
-        align-items: center;
+        width: 240px;
+        height: 42px;        
+        justify-content: flex-start ;           
         padding: 0 15px;
+        color: #222222;
+        font-family: Avenir;
+        font-size: 14px;
+        line-height: 19px;
+        opacity: 0.5;
+        text-align: left;
 }
 
 .search img{
     margin-right: 10px;
 }
 
-.investing-made-easy {
+.investing-made-easy{
     color: #222222;
-    font-family: FuturaBT;
-    font-size: 40px;
-    line-height: 47.95px;
-    width: 416px;
+    font-size: 400px;
     text-align: left;
-  }
+}
 
-  .indias-fastest-grow {
-    margin: 20px 0  15px 0;
+.indias-fastest-grow {
+    margin: 20px 0  35px 0;
     color: #222222;
     font-family: Avenir;
     font-size: 17px;
@@ -60,11 +88,11 @@
     opacity: 0.699999988079071;
     width: 455px;
     text-align: left;
-  }
+}
 .get_started_button{
     background-color: #00D09C;
     border-radius: 4px;
-    width: 150px;
+    width: 200px;
     box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
     height: 52px;
     display: flex;
@@ -82,18 +110,22 @@
 .rectangle{
     background: #ffffff;
     height:auto;    
-    padding: 70px 100px;    
+    padding: 40px 100px;    
     display: flex;
-   
+    flex-wrap: wrap;
 }
 
 .rectangle1{
     margin: auto;
     background: rgb(255, 255, 255);
-    padding: 10px;
     width: 40%;
 }
 
+.rectangle1_banner{
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 40%;
+}
 .rectangle2{
     background-color: #E4FAF4;
     height: auto;
@@ -113,17 +145,23 @@
     min-width: 450px;
     color: #222222;
     font-family: Futura;
+    font-weight: 600;
     font-size: 30px;
     line-height: 39px;
     text-align: left;
 }
-
+.trusted-by-millions_m{
+    display: none;
+}
+.we-are-registered-as_m{
+    display: none;
+}
 .we-are-registered-as {
     min-width: 450px;
     color: #222222;
     font-family: Avenir;
-    font-size: 17px;
-    line-height: 29px;
+    font-size: 16px;
+    line-height: 25px;
     opacity: 0.699999988079071;
     width: 504px;
     text-align: left;
@@ -141,10 +179,9 @@ section .rectangle.rectangle2 div{
 .guru {
     background: #ffffff;
     height:auto;    
-    padding: 70px 100px;    
+    padding: 150px 100px;    
     display: flex;
-    justify-content:space-around; 
-   
+    justify-content:space-around;    
 }
 
 .about-mutal-funds {
@@ -160,8 +197,10 @@ section .rectangle.rectangle2 div{
     color: #222222;
     font-family: Futura;
     font-size: 40px;
+    font-weight: 600;
     line-height: 52px;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .mutual{
@@ -170,6 +209,31 @@ section .rectangle.rectangle2 div{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.invest_now_button{
+    background-color: #00D09C;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 0 15px;
+    box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
+    height: 52px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.know_more_button{
+    background-color: #00D09C;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    min-width: 150px;
+    box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
+    height: 52px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
 }
 
 .watch-video {
@@ -195,8 +259,8 @@ section .rectangle.rectangle2 div{
 .two_button{
     display: flex;
     justify-content: space-between;
-    width: 300px;
     margin-top: 15px;
+    min-width: 320px;
 }
 .mutual-funds-intro {
     color: #222222;
@@ -221,9 +285,9 @@ section .rectangle.rectangle2 div{
     display: flex;
     background-image: linear-gradient(180deg, #E4FAF4 0%, #FFFFFF 100%);
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 100px;
     
 }
 .ask-the-expert {
@@ -246,10 +310,22 @@ section .rectangle.rectangle2 div{
 .investing-made-easy {
     color: #222222;
     font-family: FuturaBT;
-    font-size: 24px;
-    line-height: 28.77px;
+    font-size: 40px;
+    line-height: 47px;;
     text-align: left;
+    margin-bottom: 20px;
 }
+
+.investing-made-easy_2 {
+    color: #222222;
+    font-family: FuturaBT;
+    font-size: 24px;
+    line-height: 47px;;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
 
 .three-simple-options {
     color: #222222;
@@ -263,7 +339,7 @@ section .rectangle.rectangle2 div{
 .expert_content{
     display: flex;
     flex-direction: column;
-    padding:10px;
+    padding:75px;
     flex:1;
     margin-left: 75px;
 }
@@ -328,6 +404,10 @@ section .rectangle.rectangle2 div{
     font-size: 30px;
     line-height: 35.96px;
     text-align: center;
+}
+
+.manage-your-investme_m{
+    display: none;
 }
 .download_investment{
     text-align: center;
@@ -423,5 +503,463 @@ section .rectangle.rectangle2 div{
     margin-right: 15px;
 }
 
+.hamburger{
+    display: none;
+}
+
+.search_mob{
+    display: none;
+}
 
 
+
+@media all and (max-width: 375px) {
+
+.green_head{
+    display: none;
+}
+
+.hamburger{
+    display: inline;
+}
+.nav_li{
+    display: none;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    max-width: 375px;
+    display: none;
+}
+
+.navigation_m{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 015px 0 0;
+}
+.nav_ul{
+    max-width: 360px;
+    padding: 1px;
+    height: 25px;
+    box-sizing: border-box;
+}
+
+.nav_logo{
+    padding: 0;
+    margin-bottom: 35px;
+
+}
+.rectangle{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.rectangle1{
+    padding: 8px;
+    width: fit-content;
+    margin: 30px 0 0 0;
+}
+
+.search_mob{
+    
+    align-items: center;
+    background-color: #dadada;
+    border-radius: 6px;
+    display: flex;
+    max-width: 320px;
+    height: 42px;        
+    justify-content: flex-start ;           
+    padding: 0 15px;
+    color: #222222;
+    font-family: Avenir;
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 0.5;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.search_mob img{
+margin-right: 10px;
+}
+
+.investing-made-easy{
+    font-size: 35px;
+    line-height: 35.96px;
+}
+
+.indias-fastest-grow{
+    max-width: 320px;
+    font-size: 17px;
+    line-height: 29px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.get_started_button{
+    margin: 35px 0;
+}
+
+.rectangle1_banner{
+    display: none;
+}
+
+.header_footer{
+    max-width: 375px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.rectangle2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 375px;
+    padding: 30px 10px;
+    
+}
+
+.rectangle2 div{
+    max-width: 375px;
+}
+
+section .rectangle.rectangle2 div{
+    max-width: 375px;
+}
+.trusted-by-millions{
+    display: none;
+}
+
+.trusted-by-millions_m {
+    min-width: 375px;
+    color: #222222;
+    font-family: Futura;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: left;
+    display: flex;
+    margin: 0;
+}
+.we-are-registered-as{
+    display: none;
+}
+
+.we-are-registered-as_m {
+    display: block;
+    min-width: 320px;
+    color: #222222;
+    font-family: Avenir;
+    font-size: 17px;
+    line-height: 25px;
+    opacity: 0.699999988079071;
+    width: 504px;
+    text-align: left;
+    margin-top: 20px;
+}
+.logo_group{
+    max-width: 375px;
+    align-self: center;
+    justify-self: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 35px;
+    margin: 45px 0 35px 0;
+
+}
+
+.logo_group div{
+    margin-left: 0px;
+}
+.guru {
+    background: #ffffff;
+    height:auto;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0;
+}
+
+.guru div img{
+    width: 200px;
+}
+
+.mutual{
+    max-width: 375px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.about-mutal-funds{
+    margin-left: 15px;
+}
+.learn-with-fund-guru{
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.ok_list img{
+    max-width: 20px;
+    margin: 0 8px;
+}
+
+.two_button{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.watch-video{
+    max-width: 150px;
+}
+
+.watch-video img{
+    max-width: 35px;
+}
+
+.expert_image{
+    display: none;
+}
+
+.expert{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.ask-the-expert{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.expert_content{
+    max-width: 375px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.you-can-schedule-a-m{
+    max-width: 250px;
+    margin-left: 10px;
+}
+
+
+.expert_sub_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.expert_sub_content div{
+    max-width: 375px;
+    margin: 20px 0 35px 0;
+}
+
+.expert_sub_content div .invest_now_button{
+    max-width: fit-content;
+    padding: 0 25px;
+    margin-top: 20px;
+    margin: 0;
+}
+.three-simple-options{
+    min-width: 340px;
+    margin: 15px 0 10px 0;
+}
+
+.manage_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7px;
+}
+
+.manage_investment{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.manage-your-investme{
+    display: none;
+}
+
+.manage-your-investme_m{
+    display: flex;
+    color: #222222;
+    font-family: FuturaBT;
+    font-size: 30px;
+    line-height: 35.96px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.now-you-will-be-at-e {
+    color: #222222;
+    font-family: Avenir;
+    font-size: 17px;
+    line-height: 29px;
+    opacity: 0.699999988079071;
+    width: 360px;
+    text-align: center;
+    margin-top:20px;
+}
+
+.download_investment{
+    margin: 35px 0 0 0 ;
+}
+
+.footer{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    box-shadow: 0 -35px 20px 0 rgba(0, 0, 0, 0.03);
+}
+
+.footer_main{
+    display: flex;
+    flex-direction: column;
+}
+.footer_logo{
+    width: 1fr;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-self: flex-start;
+}
+
+.footer_main_content{
+    max-width: 375px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_main_content .footer_main_content_item .explore-funds{
+    display: none;
+}
+
+.footer_main_content .footer_main_content_item .quick-links{
+    border: 1px solid silver;
+}
+
+.footer_main_content2{
+    max-width: 375px;
+    padding: 10px;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 100px ;
+    grid-column-gap: 10px;
+}
+
+.footer_main_content2 :nth-child(3) {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_main_content_item{
+    padding: 10px;
+    margin: 1px;
+    max-width: 150px;
+
+}
+
+.footer_main_content2 .footer_main_content_item .quick-links {
+    color: #222222;
+    font-family: Avenir;
+    font-size: 17px;
+    line-height: 13px;
+    padding: 0 15px;
+    text-align: left;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer_main_content2 .footer_main_content_item .explore-funds {
+    margin:  7px;
+    color: #222222;
+    font-family: Avenir;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.699999988079071;
+    text-align: left;
+}
+
+.footer_footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-height: 45px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    color: rgb(117, 117, 117);
+}
+
+
+.footer_footer_social img{
+    margin-right: 30px;
+    display:  flex;
+}
+
+.footer_footer_social{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.quick-links {
+    color: #222222;
+    font-family: Avenir;
+    font-size: 17px;
+    line-height: 23px;
+    padding: 0 15px;
+    text-align: left;
+    height: 45px;
+    width: 280px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+.explore-funds {
+    margin: 10px 0 0 0;
+    color: #222222;
+    font-family: Avenir;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.699999988079071;
+    text-align: left;
+}
+
+.footer_app_logo{
+    margin: 5px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.footer_app_logo div{
+    margin-right: 15px;
+}
+
+}
