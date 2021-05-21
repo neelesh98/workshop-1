@@ -226,7 +226,8 @@ section .rectangle.rectangle2 div{
     color: white;
     border-radius: 4px;
     font-size: 18px;
-    padding: 0 15px;
+    font-family: Lato;
+    padding: 0 15px 5px ;
     box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
     height: 52px;
     display: flex;
@@ -289,9 +290,16 @@ section .rectangle.rectangle2 div{
 }
 
 .logo_group div{
-    border: 1px solid rgba(46, 46, 46, 0.2);
+    border: 1px solid rgba(101, 255, 191, 0.384);
     padding: 10px;  
-    width: fit-content;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: rgb(107, 107, 107);
+    font-family: Lato;
+    display:  flex;
+    flex-direction: column;
     align-items: center; 
 }
 
@@ -338,6 +346,7 @@ section .rectangle.rectangle2 div{
     font-weight: 500;
     text-align: left;
     margin-bottom: 20px;
+    width: 300px;
 }
 
 
@@ -349,11 +358,12 @@ section .rectangle.rectangle2 div{
     opacity: 0.699999988079071;
     width: 260px;
     text-align: left;
+    height: 130px;
 }
 .expert_content{
     display: flex;
     flex-direction: column;
-    padding:75px;
+    padding:0 0 0 75px;
     flex:1;
     margin-left: 75px;
 }
@@ -380,6 +390,10 @@ section .rectangle.rectangle2 div{
     justify-content: space-between;
 }
 
+.expert_sub_content div img{
+    padding: 15px;
+    background-color: rgba(92, 255, 179, 0.158);
+}
 .expert_image{
     flex:1;
     margin-right: 100px;
@@ -390,7 +404,7 @@ section .rectangle.rectangle2 div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 75px;
+    margin: 80px ;
 }
 .manage_investment{ 
     display: flex;
@@ -410,6 +424,22 @@ section .rectangle.rectangle2 div{
     margin-top:20px;
 }
 
+.download{
+    width: 1100px;
+    display: flex;
+}
+
+.download_investment{
+    text-align: center;
+    width: 350px;
+    margin-left: 370px;
+    padding-bottom: 30px;
+}
+
+.download_chat{
+    align-self: flex-end;
+    margin-left: 280px;
+}
 .download-the-app-now {
     color: #222222;
     font-family: Lato;
@@ -429,10 +459,7 @@ section .rectangle.rectangle2 div{
 .manage-your-investme_m{
     display: none;
 }
-.download_investment{
-    text-align: center;
-    width: 350px;
-}
+
 
 .download_buttons{
     display: flex;
@@ -837,10 +864,24 @@ section .rectangle.rectangle2 div{
     width: 360px;
     text-align: center;
     margin-top:20px;
+    margin-bottom: 13px;
 }
 
 .download_investment{
-    margin: 35px 0 0 0 ;
+    margin: 0;
+    padding: 0;
+}
+
+.download{
+    flex-direction: column-reverse;
+    max-width: 375px;
+    max-height: 220px;
+}
+
+.download_chat{
+    margin:0;
+    padding: 0;
+    height: 15px;
 }
 
 .footer{
