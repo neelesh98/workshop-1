@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body{
     padding: 0;
     margin:  0;
@@ -15,6 +17,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     box-sizing: border-box;
+    font-family: Lato;
 }
 
 .green_head_item{
@@ -62,7 +65,7 @@ body{
         justify-content: flex-start ;           
         padding: 0 15px;
         color: #222222;
-        font-family: Avenir;
+        font-family: Lato;
         font-size: 14px;
         line-height: 19px;
         opacity: 0.5;
@@ -88,7 +91,7 @@ body{
 .indias-fastest-grow {
     margin: 20px 0  35px 0;
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 29px;
     opacity: 0.699999988079071;
@@ -108,7 +111,7 @@ body{
 
 .get-started-now {
     color: #FFFFFF;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 18px;
     line-height: 24.59px;
     text-align: center;
@@ -150,7 +153,7 @@ body{
 .trusted-by-millions {
     min-width: 450px;
     color: #222222;
-    font-family: Futura;
+    font-family: Lato;
     font-weight: 600;
     font-size: 30px;
     line-height: 39px;
@@ -165,7 +168,7 @@ body{
 .we-are-registered-as {
     min-width: 450px;
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 16px;
     line-height: 25px;
     opacity: 0.699999988079071;
@@ -192,7 +195,7 @@ section .rectangle.rectangle2 div{
 
 .about-mutal-funds {
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 28px;
     opacity: 0.699999988079071;
@@ -201,7 +204,7 @@ section .rectangle.rectangle2 div{
 
 .learn-with-fund-guru {
     color: #222222;
-    font-family: Futura;
+    font-family: Lato;
     font-size: 40px;
     font-weight: 600;
     line-height: 52px;
@@ -245,7 +248,7 @@ section .rectangle.rectangle2 div{
 
 .watch-video {
     color: #00D09C;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 19px;
     line-height: 28px;
     display: flex;
@@ -271,7 +274,7 @@ section .rectangle.rectangle2 div{
 }
 .mutual-funds-intro {
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 28px;
     opacity: 0.699999988079071;
@@ -280,14 +283,14 @@ section .rectangle.rectangle2 div{
 }
 .logo_group{
     display:flex;
-    justify-content:center;
-    align-items: center;    
+    justify-content:space-around;
+    align-items: center; 
 }
 
 .logo_group div{
-    margin-left: 75px;
-    border: 1px solid rgba(46, 46, 46, 0.1);
+    border: 1px solid rgba(46, 46, 46, 0.2);
     padding: 10px;  
+    width: fit-content;
     align-items: center; 
 }
 
@@ -302,7 +305,7 @@ section .rectangle.rectangle2 div{
 }
 .ask-the-expert {
     color: #222222;
-    font-family: Futura;
+    font-family: Lato;
     font-size: 40px;
     line-height: 52px;
     text-align: left;
@@ -310,7 +313,7 @@ section .rectangle.rectangle2 div{
 
 .you-can-schedule-a-m {
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 29px;
     opacity: 0.699999988079071;
@@ -319,7 +322,7 @@ section .rectangle.rectangle2 div{
 
 .investing-made-easy {
     color: #222222;
-    font-family: FuturaBT;
+    font-family: Lato;
     font-size: 40px;
     line-height: 47px;;
     text-align: left;
@@ -328,7 +331,7 @@ section .rectangle.rectangle2 div{
 
 .investing-made-easy_2 {
     color: #222222;
-    font-family: FuturaBT;
+    font-family: Lato;
     font-size: 24px;
     line-height: 47px;;
     font-weight: 500;
@@ -339,7 +342,7 @@ section .rectangle.rectangle2 div{
 
 .three-simple-options {
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 29px;
     opacity: 0.699999988079071;
@@ -397,7 +400,7 @@ section .rectangle.rectangle2 div{
 
 .now-you-will-be-at-e {
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 29px;
     opacity: 0.699999988079071;
@@ -408,7 +411,7 @@ section .rectangle.rectangle2 div{
 
 .download-the-app-now {
     color: #222222;
-    font-family: FuturaBT;
+    font-family: Lato;
     font-size: 24px;
     line-height: 28.77px;
     text-align: center;
@@ -416,7 +419,7 @@ section .rectangle.rectangle2 div{
 }
 .manage-your-investme {
     color: #222222;
-    font-family: FuturaBT;
+    font-family: Lato;
     font-size: 30px;
     line-height: 35.96px;
     text-align: center;
@@ -493,7 +496,7 @@ section .rectangle.rectangle2 div{
 
 .quick-links {
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 23px;
     text-align: left;
@@ -502,7 +505,7 @@ section .rectangle.rectangle2 div{
 .explore-funds {
     margin: 10px 0 10px 0;
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 15px;
     line-height: 20px;
     opacity: 0.699999988079071;
@@ -597,7 +600,7 @@ section .rectangle.rectangle2 div{
     justify-content: flex-start ;           
     padding: 0 15px;
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 14px;
     line-height: 19px;
     opacity: 0.5;
@@ -659,7 +662,7 @@ section .rectangle.rectangle2 div{
 .trusted-by-millions_m {
     min-width: 375px;
     color: #222222;
-    font-family: Futura;
+    font-family: Lato;
     font-weight: 600;
     font-size: 30px;
     line-height: 39px;
@@ -675,7 +678,7 @@ section .rectangle.rectangle2 div{
     display: block;
     min-width: 320px;
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 25px;
     opacity: 0.699999988079071;
@@ -817,7 +820,7 @@ section .rectangle.rectangle2 div{
 .manage-your-investme_m{
     display: flex;
     color: #222222;
-    font-family: FuturaBT;
+    font-family: Lato;
     font-size: 30px;
     line-height: 35.96px;
     text-align: center;
@@ -826,7 +829,7 @@ section .rectangle.rectangle2 div{
 
 .now-you-will-be-at-e {
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 29px;
     opacity: 0.699999988079071;
@@ -901,7 +904,7 @@ section .rectangle.rectangle2 div{
 
 .footer_main_content2 .footer_main_content_item .quick-links {
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 13px;
     padding: 0 15px;
@@ -916,7 +919,7 @@ section .rectangle.rectangle2 div{
   .footer_main_content2 .footer_main_content_item .explore-funds {
     margin:  7px;
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 15px;
     line-height: 20px;
     opacity: 0.699999988079071;
@@ -948,7 +951,7 @@ section .rectangle.rectangle2 div{
 }
 .quick-links {
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 17px;
     line-height: 23px;
     padding: 0 15px;
@@ -963,7 +966,7 @@ section .rectangle.rectangle2 div{
 .explore-funds {
     margin: 10px 0 0 0;
     color: #222222;
-    font-family: Avenir;
+    font-family: Lato;
     font-size: 15px;
     line-height: 20px;
     opacity: 0.699999988079071;
