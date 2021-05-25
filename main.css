@@ -28,6 +28,20 @@ body{
     margin: 0 5px;
 }
 
+.g_f{
+    font-size: 13px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.g_f p{
+    margin-right: 5px;
+    font-weight: 300;
+    font-size: 12px;
+}
+.g_f img{
+    margin: 0 7px;
+}
 .navigation_m{
     display: none;
 }
@@ -53,6 +67,12 @@ body{
 
 .nav_li{
     margin: 35px 20px 0 0;
+    font-size: 14px;
+    color: #676767;
+}
+
+.nav_li strong{
+    color: rgb(22, 22, 22);
 }
 
 .search{
